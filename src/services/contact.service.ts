@@ -1,5 +1,5 @@
 import { db } from "../config/db";
-import { Contact, LinkPrecedence } from "@prisma/client";
+import { Contact, LinkPrecedence } from "../generated/prisma/client";
 import { ApiError } from "../utils/apiError";
 import { buildContactResponse } from "../utils/buildContactResponse";
 import { ConsolidatedContact } from "../types/contact.types";

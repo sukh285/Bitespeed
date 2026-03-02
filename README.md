@@ -3,6 +3,7 @@
 A backend web service designed to identify and keep track of a customer's identity across multiple purchases. It links different orders made with varying contact information (emails and phone numbers) to the same person.
 
 **Live URL:** `https://bitespeed-zopy.onrender.com`
+**Primary Endpoint:** `POST https://bitespeed-zopy.onrender.com/api/v1/identify`
 _(Note: Hosted on Render's free tier. A keep-alive cron job is implemented)._
 
 ## Tech Stack
